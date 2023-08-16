@@ -25,6 +25,7 @@ This can be presented as an interactive website or as a Power BI dashboard, with
 3.1 - model after exponential, and figure out decay rate. This method assumes a naive distribution which might not be true. Introduce an interaction term and see the p-value / scale, or some othe way. 
 3.2 - clustering: turn histogram into high-dimensional vectors, and cluster (DBSCAN or K-Means) into those that spike at 200, and those that doesnt. 
 3.3 - Normalize distribution by country, calculate the normalized frequency of bin  190 to 220 (or 200 to 230), and compare across. 
+4. To calculate distance from country's shore, right now it counts all points along a country's border, not just coast / shore. One way to solve it is by subtracting country A's point by all other points, and maybe the resulting points will only be along the shorelines. And repeat this for all countries, then calculate distanceq``
 
 ### Source:
 1. Original data source: https://globalfishingwatch.org/data-download/datasets/public-welch-et-al-disabling-events:v20221102?itid=lk_inline_enhanced-template
