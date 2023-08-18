@@ -28,6 +28,7 @@ This can be presented as an interactive website or as a Power BI dashboard, with
 4. To calculate distance from country's shore, right now it counts all points along a country's border, not just coast / shore. One way to solve it is by subtracting country A's point by all other points, and maybe the resulting points will only be along the shorelines. And repeat this for all countries, then calculate distanceq``
 5. Include continents, and add group countries (color code) by corresponding continents, not country specific. 
 6. Share of missing period in daytime vs late night. 
+7. A separate page / report on Power BI that doesn't allow multiple selections. Only one can be highlighted, so that it can go more in depth: including distribution of gap time, gap distance, and dist from shore before disabling. 
 
 ### Source:
 1. Original data source: https://globalfishingwatch.org/data-download/datasets/public-welch-et-al-disabling-events:v20221102?itid=lk_inline_enhanced-template
