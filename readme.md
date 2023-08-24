@@ -6,9 +6,6 @@ The complete product would allow people to view the missing events across the gl
 This can be presented as an interactive website or as a Power BI dashboard, with an accompanying article explaining all findings. 
 
 ### MVP
-- Plot beginning and ending of missing transponders
-- Plot (as lines/arrows) start and end point of missing ships. 
-- Overlay missing AIS events with world fishery abbundance data. 
 - ~~Time: duration of missing signal; ~~
 - ~~what time of day did they go missing, etc. ~~
 - ~~Mark top X offenders (unique ships)~~
@@ -24,6 +21,11 @@ This can be presented as an interactive website or as a Power BI dashboard, with
 2. ~~Calculate mean or median distance to the country's own shore. Use this to evaluate which countries fish the furthest from their own territories. ~~: ~~To calculate distance from country's shore, right now it counts all points along a country's border, not just coast / shore. One way to solve it is by subtracting country A's point by all other points, and maybe the resulting points will only be along the shorelines. And repeat this for all countries, then calculate distanceq``~~
 3. ~~Share of missing period in daytime vs late night. ~~
 4. ~~Include continents, and add group countries (color code) by corresponding continents, not country specific. ~~
+5. Added 'noise' col to hopefully present information better for the two 1-D bubble plots, mimicing a beeswarm plot, although i'm not sure if it is working well. 
+- Plot beginning and ending of missing transponders
+- Plot (as lines/arrows) start and end point of missing ships. 
+- Overlay missing AIS events with world fishery abbundance data. 
+
 
 ### Presentable MVP:
 
@@ -34,7 +36,7 @@ This can be presented as an interactive website or as a Power BI dashboard, with
 2. clustering: turn histogram into high-dimensional vectors, and cluster (DBSCAN or K-Means) into those that spike at 200, and those that doesnt. 
 3. Normalize distribution by country, calculate the normalized frequency of bin  190 to 220 (or 200 to 230), and compare across. 
 ##### Presentation: 
-A separate page / report on Power BI that doesn't allow multiple selections. Only one can be highlighted, so that it can go more in depth: including distribution of gap time, gap distance, and dist from shore before disabling. 
+A separate page / report on Power BI that doesn't allow multiple selections. Only one country can be highlighted, so that it can go more in depth: including distribution of gap time, gap distance, and dist from shore before disabling. 
 
 
 
