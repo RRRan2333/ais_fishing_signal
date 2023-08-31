@@ -41,6 +41,7 @@ This can be presented as an interactive website or as a Power BI dashboard, with
 ##### Outside of dashboard:
 1. Ranking, illicit fishing. 
 2. Distance traveled? Start and finish, pin point? Somehow visualize the travel? 
+3. Dist from homeland vs spike at 200: only countries that fish far from home spike near 200nmi. Those that fish near home don't do that. 
 
 ### Outlier detector: see which countries exhibit the most significant spike at 200 nautical miles. 
 ##### Methods: 
