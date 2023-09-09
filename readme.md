@@ -23,7 +23,6 @@ This can be presented as an interactive website or as a Power BI dashboard, with
 4. ~~Include continents, and add group countries (color code) by corresponding continents, not country specific. ~~
 5. ~~Added 'noise' col to hopefully present information better for the two 1-D bubble plots, mimicing a beeswarm plot, although i'm not sure if it is working well. ~~
 
-- Plot beginning and ending of missing transponders
 - Plot (as lines/arrows) start and end point of missing ships. 
 - Overlay missing AIS events with world fishery abbundance data. 
 - Better 'distance from homeland' calc by only using coastlines, rather than entire border. This can be achieved by subtracting the boarder nodes / points that overlaps w other countries. 
