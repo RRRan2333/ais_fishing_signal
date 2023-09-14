@@ -4,6 +4,17 @@ This repo hosts everything that supports the article "[*Silent Signals, Open Sea
 ### Vision
 An educational article with dashboards that allow users to interact and explore the patterns of Illegal, Unreported, and Unregulated (IUU) fishing behaviors of countries. 
 
+### Key features
+- Global heatmap of IUU fishing activities
+- Country rank and comparisons of IUU fishing activities
+- Correlation between various metrics, including vessel weights and length, distance traveled and time duration, etc. 
+- Percentage duration of AIS gap event that took place during daytime versus nighttime
+- The measure ‘spike index’ to quantifiably measure irregularities in patterns of fishing behaviors
+- Single country profile of IUU patterns
+
+### Tech/Elements involved
+Main tech stack, elements, or knowledge points used in the completion of this project: Python; Pandas; Matplotlib; Power BI; Statistics; Geopandas; GIS; 
+
 ### Potential features to be included in future iterations
 - Plot the beginning and ending of missing AIS signals
 - Plot (as lines/arrows) start and end points of missing vessels
