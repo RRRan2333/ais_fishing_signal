@@ -13,7 +13,7 @@ An educational article with dashboards that allow users to interact and explore 
 - Single country profile of IUU patterns
 
 ### Tech/Elements involved
-Main tech stack, elements, or knowledge points used in the completion of this project: Python; Pandas; Matplotlib; Power BI; Statistics; Geopandas; GIS; 
+Main tech stack, elements, or knowledge points used in the completion of this project: *Python; Pandas; Matplotlib; Power BI; Statistics; Geopandas; GIS;* 
 
 ### Potential features to be included in future iterations
 - Plot the beginning and ending of missing AIS signals
